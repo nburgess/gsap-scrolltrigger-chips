@@ -1,0 +1,129 @@
+/* https://hookagency.com/website-color-schemes/ */
+/* https://www.flaticon.com/packs/gastronomy-set/2?word=cooking */
+
+body{
+    margin:0;
+    background:#F1B24A;
+    /* height:1000vh; */
+    /* background-image: linear-gradient( #777777b3 .1em, transparent .1em); */
+    background-size: 10em 10em;
+}
+#wrap{
+    /* padding-top: 15vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* #bag img{
+    height: 40vh;
+} */
+#light{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#chips{
+    /* height: 120vh; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #chips img{
+    height: 40vh;
+} */
+
+#header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;  
+    color:#FFFFFF;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+
+#background{
+    margin-top: 10em;
+    padding-top: 2rem 20%;
+    clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
+    background-color: white; 
+    /* background-image: url(img/farm.jpeg); */
+    background-size: cover;
+    background-position: center 30%;
+    /* background-image: url(img/tortilla.png);
+    background-repeat: repeat; */
+}
+#container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.text {
+    flex: 2 1 0;
+    margin-left: 3em;
+    border-radius: 25px;
+    color: #4d774e;
+    padding: 3em;
+}
+
+#right {
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#center{
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    /* width: auto; */
+}
+#logo {
+    height: 5em;
+    width: auto;
+}
+
+.text h1{
+    font-size: 3vh;
+}
+#left.text h2 {
+    font-size: 2vh;
+    color: white;
+}
+.text h2 {
+    font-size: 2vh;
+    color: #9DC88D;
+}
+#left.text{
+    text-align: right;
+    margin-left: 0;
+    margin-right: 3em;
+}
+#circle{
+    /* width: 20em;
+    height: 20em; */
+    width: 20em;
+    height: 20em;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display:inline-block;
+    vertical-align:middle;  
+}
+#circle img{
+    margin-left: -25%;
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,16 @@
+$blue: #a3d5d3;
+
+body {
+  background-color: $blue;
+}
+
+.can-wrapper {
+  display:flex;
+}
+.can {
+  margin-right:30px;
+}
+.can > img {
+  width:150px;
+  height:auto
+}
